@@ -1,0 +1,37 @@
+{
+  "workspaceRoot": "D:/PrintCut",
+  "vectorcraftExe": "C:/Program Files/VectorCraft/vectorcraft.exe",
+  "controlHost": "127.0.0.1",
+  "controlPort": 7979,
+  "launchVectorCraftIfNeeded": true,
+  "defaults": {
+    "maxPdfWidthIn": 48,
+    "bleedIn": 0.125,
+    "itemGapIn": 0.5,
+    "allowRotation": true
+  },
+  "registration": {
+    "diameterIn": 0.25,
+    "offsetFromArtworkIn": 0.25,
+    "extraMarksAfterIn": 48,
+    "extraMarkSpacingIn": 42
+  },
+  "cutLine": {
+    "strokeWidthPt": 1,
+    "cmyk": {
+      "c": 0,
+      "m": 100,
+      "y": 100,
+      "k": 0
+    }
+  },
+  "document": {
+    "colorMode": "cmyk",
+    "rasterEffectsPpi": 300
+  },
+  "dropSettleMs": 4000,
+  "pdf": {
+    "createLayers": true,
+    "preserveEditing": false
+  }
+}

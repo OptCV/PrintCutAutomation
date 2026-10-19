@@ -1,0 +1,19 @@
+{
+  "name": "print-cut-direct",
+  "version": "0.3.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "selftest": "bun run src/selftest.ts",
+    "doctor": "bun run src/doctor.ts",
+    "plan": "bun run src/plan.ts",
+    "render": "bun run src/render.ts",
+    "process": "bun run src/process.ts",
+    "watch": "bun run src/watch.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}
